@@ -1,4 +1,4 @@
 romanizer
 =========
 
-Romanization Gem for Ruby
+A simple romanization gem
