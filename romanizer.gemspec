@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'romanizer'
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.date        = '2011-11-27'
   s.summary     = "Romanizer"
   s.description = "A simple romanization gem"
@@ -9,4 +9,6 @@ Gem::Specification.new do |s|
   s.files       = ["lib/romanizer.rb"]
   s.homepage    = 'https://github.com/vitalikdanchenko/romanizer'
   s.license     = 'MIT'
+  
+  s.add_development_dependency 'rspec'
 end
